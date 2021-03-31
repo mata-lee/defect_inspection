@@ -69,8 +69,8 @@ download_img_path = os.path.join(os.getcwd(), '2. data', '1. unsplash')
 if not os.path.exists(download_img_path):
     os.mkdir(download_img_path)
 
-keyword = 'real estate interior'
-noofpages = 1
+keyword = 'house interior'
+noofpages = 2
 
 args = ['unsplash', keyword, download_img_path, noofpages]
 scrape(args)
